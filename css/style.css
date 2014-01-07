@@ -144,6 +144,14 @@ h3 {
 
 .intro a.cv:hover, .intro a.mail:hover {
 	border: none;
+	border-radius: 2px;
+	padding-bottom: 2px;
+}
+
+.top-nav a.cv:hover, .top-nav a.mail:hover {
+	border: none;
+	border-radius: 2px;
+	padding-bottom: 2px;
 }
 
 .top-nav a.cv, .top-nav a.mail {
@@ -306,6 +314,7 @@ a.download i {
 	margin-bottom: 10px;
 }
 
+
 /*/// Hide & Show Styles ///*/
 
 #landing.clicked {
@@ -341,4 +350,29 @@ a.download i {
 
 .close {
 	display: none
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.intro h2 {
+		margin-bottom: 30px;
+	}
+
+	.nav-intro {
+		display: none;
+	}
+
+	.mail {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 }
